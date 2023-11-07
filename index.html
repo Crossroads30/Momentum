@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link href="assets/favicon.ico" rel="shortcut icon" />
+   <link rel="stylesheet" href="css/owfont-regular.css" />
+   <link rel="stylesheet" href="css/style.css" />
+
+   <title>momentum</title>
+</head>
+
+<body>
+   <header class="header">
+      <div class="player">
+         <div class="player-controls">
+            <button class="play-prev player-icon"></button>
+            <button class="play player-icon"></button>
+            <button class="play-next player-icon"></button>
+         </div>
+         <ul class="play-list"></ul>
+      </div>
+      <div class="weather">
+         <input type="text" class="city" placeholder="[ Город ]" />
+         <i class="weather-icon owf"></i>
+         <div class="weather-error"></div>
+         <div class="description-container">
+            <span class="temperature"></span>
+            <span class="weather-description"></span>
+         </div>
+         <div class="feel-like"></div>
+         <div class="wind"></div>
+         <div class="humidity"></div>
+      </div>
+   </header>
+   <main class="main">
+      <div class="slider-icons">
+         <button class="slide-prev slider-icon"></button>
+         <button class="slide-next slider-icon"></button>
+      </div>
+      <time class="time"></time>
+      <date class="date"></date>
+      <div class="greeting-container">
+         <span class="greeting"></span>
+         <input type="text" class="name" placeholder="[ Ваше имя ]" />
+         <!--<input type="text"  onkeydown="this.style.width = ((this.value.length + 1) * 8) + 'px'"/>-->
+         <!--<input type="text" size="12" class="name" placeholder="Введите имя" maxlength="12" onkeydown="size=value.length||12" onkeyup="onkeydown()" onkeypress="onkeydown()" onchange="onkeydown()">   -->
+      </div>
+   </main>
+   <footer class="footer">
+      <div class="quotes">
+         <button class="change-quote"></button>
+         <div>
+            <div class="quote"></div>
+            <div class="author"></div>
+         </div>
+      </div>
+      <div class="footer-bottom">
+         <div class="settings-window">
+            <div class="language inner-block">
+               <p class="title">Languages:</p>
+               <p class="ru">RU</p>
+               <p class="en">EN</p>
+            </div>
+            <div class="player inner-block">
+               <p class="title">Player:</p>
+               <div class="switch">
+                  <p class="on player-on">ON</p>
+                  <p class="off player-off">OFF</p>
+               </div>
+            </div>
+            <div class="weath inner-block">
+               <p class="title">Weather:</p>
+               <div class="switch">
+                  <p class="on weather-on">ON</p>
+                  <p class="off weather-off">OFF</p>
+               </div>
+            </div>
+            <div class="greet-block inner-block">
+               <p class="title">Greeting:</p>
+               <div class="switch">
+                  <p class="on greet-on">ON</p>
+                  <p class="off greet-off">OFF</p>
+               </div>
+            </div>
+            <div class="quotes inner-block">
+               <p class="title">Quotes:</p>
+               <div class="switch">
+                  <p class="on quotes-on">ON</p>
+                  <p class="off quotes-off">OFF</p>
+               </div>
+            </div>
+         </div>
+         <div class="settings">
+            <i class="fa-sharp fa-solid fa-gear"></i>
+         </div>
+         <div class="gh-link"><a href="https://github.com/Crossroads30"><i class="fa-brands fa-square-github"></i>
+               github</a></div>
+         <span class="year">2023</span>
+         <a href="https://rs.school/js/" class="rs-link"></a>
+      </div>
+   </footer>
+   <script type="module" src="js/script.js"></script>
+   <script src="https://kit.fontawesome.com/6cd62983da.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
